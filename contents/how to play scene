@@ -1,0 +1,11 @@
+The game is based upon DNA translation in eukaryotes. You have got a mRNA chain and you have to summon the required codons by selecting its triplet nucleic acids.
+Remember the possible pairing 
+A-U
+G-C
+
+The game has two modes
+1. Best time mode-You have to select no of amino acids present in your protein, and try to complete it in best time.
+2.Race Against time-You have to select time duration and make the longest chain protein in that time.
+
+You have got 3 lives to complete any mode.Remember each wrong choice of nucleic acid costs you a life.Have fun.
+

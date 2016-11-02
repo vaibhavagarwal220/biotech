@@ -13,7 +13,9 @@
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+<style type="text/css">
+.hideme{display: none;}
+</style>
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
@@ -25,8 +27,8 @@
 <link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
 
 <!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/rsz_icon.jpg" type="image/x-icon">
+<link rel="icon" href="images/rsz_icon.jpg" type="image/x-icon">
 
 
 <link rel="stylesheet" href="assets/style.css">
@@ -87,10 +89,10 @@
           <div class="caption">
             <div class="caption-wrapper">
               <div class="caption-info">              
-              <i class="fa fa-coffee fa-5x animated bounceInDown"></i>
+              <img class="animated bounceInDown" src=images/rsz_icon.jpg></i>
               <h1 class="animated bounceInUp">Protein Synthesis</h1><br><br>
-              <p class="animated bounceInLeft"><a href="https://drive.google.com/open?id=0B7MHZc98VB3feTNYR29xVC03bU0" class="btn btn-success">Download for Linux</a>
-                <a href="https://drive.google.com/open?id=0B7MHZc98VB3feUUtTWhqN0dZbWc" class="btn btn-success">Download for Windows</a></p>
+              <p class="animated bounceInLeft"><a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feTNYR29xVC03bU0" class="btn btn-success">Download for Linux</a>
+                <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feUUtTWhqN0dZbWc" class="btn btn-success">Download for Windows</a></p>
              <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
               </div>
             </div>
@@ -116,6 +118,7 @@
 <p>You encounter so many  proteins in day-to-day life that they seem countless to number.<br>
 e.g.
 //insert photos of examples
+<img src="contents/images/1.svg">
 <ul>
 <li>Oxyhaemoglobin(transportation)</li>
 <li>Pepsin(catalysts)</li>
@@ -123,15 +126,18 @@ e.g.
 </ul></p>
 <p>All these proteins are made inside the cell using a process called protein synthesis.
 Protein synthesis has two steps:
- <dl><dt>Transcription</dt><dd>Transcription is the first step of gene expression, in which a particular segment of DNA is copied into RNA (especially mRNA) by the enzyme RNA polymerase During transcription, a DNA sequence is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand called a primary transcript.</dd>
-<dt>Translation </dt><dd>In molecular biology and genetics, translation is the process in which cellular ribosomes create proteins.In translation, messenger RNA (mRNA)—produced by transcription from DNA—is decoded by a ribosome to produce a specific amino acid chain, or polypeptide.
+ <dl><dt class=scrip>Transcription</dt><img src="contents/images/1.svg" class="hideme" id="transc"><dd>Transcription is the first step of gene expression, 
+  in which a particular segment of DNA is copied into RNA (especially mRNA) by the enzyme RNA polymerase During transcription, a DNA sequence 
+  is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand called a primary transcript.</dd>
+<dt class=slati>Translation </dt><img src="contents/images/2.svg" class="hideme" id="transl"><dd>In molecular biology and genetics, translation is the process in which cellular ribosomes create proteins.In translation, messenger RNA (mRNA)—produced by transcription from DNA—is decoded by a ribosome to produce a specific amino acid chain, or polypeptide.
 In this app we are showing translation process happening inside eukaryotes.</dd></dl>
 </p>
 
   </div>
   <div class="col-sm-6 wowload fadeInRight">
+
     
-     <h4><i class="fa fa-bars"></i>Differences</h4>
+     <h4><i class="fa fa-bars"></i>Important Points</h4>
 
       <!-- menus -->
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -139,7 +145,7 @@ In this app we are showing translation process happening inside eukaryotes.</dd>
     <div class="panel-heading" role="tab">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         <i class="fa fa-coffee"></i>Eukaryotes
+         Eukaryotes
         </a>
       </h4>
     </div>
@@ -158,8 +164,23 @@ undergoes processing and splicing to change into a functional mRNA.</div></div>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab">
       <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+         </i>DNA Translation (GIF)
+        </a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+      <img src="contents/images/show.gif">      
+      </div>
+    </div>
+  </div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         <i class="fa fa-fire"></i>Prokaryotes
+         </i>Prokaryotes
         </a>
       </h4>
     </div>
@@ -182,6 +203,7 @@ transcript does not occur.
       </div>
     </div>
   </div>
+  
 </div>
       <!-- menus -->
 
@@ -232,9 +254,9 @@ transcript does not occur.
 <!-- team -->
 <h3 class="text-center  wowload fadeInUp">Our Members</h3>
 <p class="text-center  wowload fadeInLeft">Our members made this app possible</p>
-<div class="row grid team  wowload fadeInUpBig">	
-	<div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
+<div class="row grid team  wowload fadeInUpBig">  
+  <div class=" col-sm-3 col-xs-6">
+  <figure class="effect-chico">
         <img src="images/team/sumit.jpg" alt="img01" class="img-responsive" />
         <figcaption>
             <p><b>Sumit Patidar</b><br>B15237</p>            
@@ -243,7 +265,7 @@ transcript does not occur.
     </div>
 
     <div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
+  <figure class="effect-chico">
         <img src="images/team/vaibhav.jpg" alt="img01"/>
         <figcaption>            
             <p><b>Vaibhav Agarwal</b><br>B15139</p>            
@@ -252,7 +274,7 @@ transcript does not occur.
     </div>
 
     <div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
+  <figure class="effect-chico">
         <img src="images/team/archit.jpg">
         <figcaption>
             <p><b>Archit Kumar</b><br>B15405</p>          
@@ -281,18 +303,18 @@ transcript does not occur.
 <div class="overlay spacer">
 <div class="container">
 <div class="row text-center  wowload fadeInDownBig">
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-smile-o  fa-5x"></i><h4>IC136</h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-thumbs-up  fa-5x"></i><h4>Understanding Biotechnology and Its Applications</h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-history  fa-5x"></i><h4></h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-map-marker fa-5x"></i><h4></h4>
-	</div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-smile-o  fa-5x"></i><h4>IC136</h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-thumbs-up  fa-5x"></i><h4>Understanding Biotechnology and Its Applications</h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-history  fa-5x"></i><h4></h4>
+  </div>
+  <div class="col-sm-3 col-xs-6">
+  <i class="fa fa-map-marker fa-5x"></i><h4></h4>
+  </div>
 </div>
 </div>
 </div>
@@ -365,11 +387,18 @@ Copyright 2016.All rights reserved.
 <!-- gallery -->
 <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
 
-<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
+
 
 
 <!-- custom script -->
 <script src="assets/script.js"></script>
-
+<script type="text/javascript">
+$('.scrip').hover(function(){
+$('#transc').fadeIn();
+});
+$('.slati').hover(function(){
+  $('#transl').fadeIn();
+});
+</script>
 </body>
 </html>

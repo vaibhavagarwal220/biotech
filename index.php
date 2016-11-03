@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>DNA</title>
+<title>Protein Synthesis</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -13,9 +13,7 @@
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<style type="text/css">
-.hideme{display: none;}
-</style>
+
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
@@ -32,10 +30,24 @@
 
 
 <link rel="stylesheet" href="assets/style.css">
+<style type="text/css">
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('images/giphy.gif') center no-repeat #fff;
+}
+</style>
 
 </head>
 
 <body>
+  <div class="se-pre-con"></div>
 <div class="topbar animated fadeInLeftBig"></div>
 
 <!-- Header Starts -->
@@ -46,7 +58,7 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><h1>Central Dogma</h1></a>
+              <a class="navbar-brand" href="#home"><h2>ProSyn</h2></a>
               <!-- #Logo Ends -->
 
 
@@ -114,24 +126,42 @@
 <h2 class="text-center wowload fadeInUp"> Protein Synthesis</h2>  
   <div class="row">
   <div class="col-sm-6 wowload fadeInLeft">
-    <h4><i class="fa fa-camera-retro">Introduction</i></h4>
-<p>You encounter so many  proteins in day-to-day life that they seem countless to number.<br>
-e.g.
-//insert photos of examples
-<img src="contents/images/1.svg">
-<ul>
-<li>Oxyhaemoglobin(transportation)</li>
-<li>Pepsin(catalysts)</li>
-<li>Insulin(transfer of information)</li>
-</ul></p>
-<p>All these proteins are made inside the cell using a process called protein synthesis.
-Protein synthesis has two steps:
- <dl><dt class=scrip>Transcription</dt><img src="contents/images/1.svg" class="hideme" id="transc"><dd>Transcription is the first step of gene expression, 
-  in which a particular segment of DNA is copied into RNA (especially mRNA) by the enzyme RNA polymerase During transcription, a DNA sequence 
-  is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand called a primary transcript.</dd>
-<dt class=slati>Translation </dt><img src="contents/images/2.svg" class="hideme" id="transl"><dd>In molecular biology and genetics, translation is the process in which cellular ribosomes create proteins.In translation, messenger RNA (mRNA)—produced by transcription from DNA—is decoded by a ribosome to produce a specific amino acid chain, or polypeptide.
-In this app we are showing translation process happening inside eukaryotes.</dd></dl>
-</p>
+    <h4>Introduction</h4>
+    <p>You encounter so many  proteins in day-to-day life that they seem countless to number.<br>
+        e.g.
+        <ul>
+          <li>
+            Oxyhaemoglobin(transportation)
+          </li>
+          <li>
+            Pepsin(catalysts)
+          </li>
+          <li>
+            Insulin(transfer of information)
+          </li>
+        </ul>
+    </p>
+    <p>All these proteins are made inside the cell using a process called protein synthesis.
+    Protein synthesis has two steps:
+     <dl>
+        <dt>
+          Transcription
+        </dt>
+        <dd>
+          Transcription is the first step of gene expression, 
+          in which a particular segment of DNA is copied into RNA (especially mRNA) by the enzyme RNA polymerase During transcription, a DNA sequence 
+          is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand called a primary transcript.
+        </dd>
+        <dt>
+          Translation 
+        </dt>
+        <dd>
+          In molecular biology and genetics, translation is the process in which cellular ribosomes create proteins.In
+           translation, messenger RNA (mRNA)—produced by transcription from DNA—is decoded by a ribosome to produce a specific amino acid chain, 
+           or polypeptide.In this app we are showing translation process happening inside eukaryotes.
+        </dd>
+      </dl>
+    </p>
 
   </div>
   <div class="col-sm-6 wowload fadeInRight">
@@ -243,8 +273,35 @@ transcript does not occur.
             <a href="contents/images/5.png" title="tRNA" data-gallery>View image</a></p>            
         </figcaption>
     </figure>     
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/bgbl.jpg" alt="img01"/>
+        <figcaption>
+            <h2><br>Haemoglobin</h2>
+            <p>Iron-containing oxygen-transport metalloprotein in the red blood cells of all vertebrates.<br>
+            <a href="contents/images/7.jpg" title="Haemoglobin" data-gallery>View image</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/bgbl.jpg" alt="img01"/>
+        <figcaption>
+            <h2><br>Pepsin</h2>
+            <p>Pepsin is an enzyme that breaks down proteins into smaller peptides.<br>
+            <a href="contents/images/8.jpg" title="Pepsin" data-gallery>View image</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/bgbl.jpg" alt="img01"/>
+        <figcaption>
+            <h2><br>Insulin</h2>
+            <p>A hormone which regulates the amount of glucose in the blood.<br>
+            <a href="contents/images/9.gif" title="Insulin" data-gallery>View image</a></p>            
+        </figcaption>
+    </figure>     
+    
 </div>
-<!-- works -->
+<div class="clearfix grid"><h3><br>Transcription & Translation</h3>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/-K8Y0ATkkAI" frameborder="0" allowfullscreen></iframe>
+</div><!-- works -->
 
 
 <div id="partners" class="container spacer ">
@@ -310,10 +367,10 @@ transcript does not occur.
   <i class="fa fa-thumbs-up  fa-5x"></i><h4>Understanding Biotechnology and Its Applications</h4>
   </div>
   <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-history  fa-5x"></i><h4></h4>
+  <i class="fa fa-history  fa-5x"></i><h4>Learn<br>Sleep<br>Repeat</h4>
   </div>
   <div class="col-sm-3 col-xs-6">
-  <i class="fa fa-map-marker fa-5x"></i><h4></h4>
+  <i class="fa fa-map-marker fa-5x"></i><h4>IIT Mandi</h4>
   </div>
 </div>
 </div>
@@ -331,11 +388,13 @@ transcript does not occur.
 <div id="contact" class="spacer">
 <!--Contact Starts-->
 <div class="container contactform center">
+  <div class=" clearfix grid">
 <h2 class="text-center  wowload fadeInUp">Contact Us</h2>
-  <span class="glyphicon glyphicon-map-marker"> </span>015,B6 Hostel, IIT Mandi,Kamand,Mandi,Himachal Pradesh,India<br><br>
-  <span class="glyphicon glyphicon-phone"></span> <a href="tel:+919736260564">+91-9736260564</a><br><br>
-  <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:vaibhavagarwal220@gmail.com">vaibhavagarwal220@gmail.com</a><br><br>
-
+  <span class="glyphicon glyphicon-person"> </span> Vaibhav Agarwal<br><br>
+  <span class="glyphicon glyphicon-map-marker"> </span> <br><br> <a href="https://goo.gl/maps/UL3GZvwUg832">015<br>B6 Hostel<br>IIT Mandi,Kamand<br>Mandi<br>Himachal Pradesh<br>India</a><br><br>
+  <span class="glyphicon glyphicon-phone"></span> <br><br> <a href="tel:+919736260564"> +91-9736260564</a><br><br>
+  <span class="glyphicon glyphicon-envelope"></span> <br><br> <a href="mailto:vaibhavagarwal220@gmail.com"> vaibhavagarwal220@gmail.com</a><br><br>
+</div>
 
 
 </div>
@@ -392,13 +451,11 @@ Copyright 2016.All rights reserved.
 
 <!-- custom script -->
 <script src="assets/script.js"></script>
-<script type="text/javascript">
-$('.scrip').hover(function(){
-$('#transc').fadeIn();
-});
-$('.slati').hover(function(){
-  $('#transl').fadeIn();
-});
-</script>
 </body>
+<script type="text/javascript">
+$(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");});
+</script>
+
 </html>

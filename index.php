@@ -42,6 +42,7 @@
   z-index: 9999;
   background: url('images/giphy.gif') center no-repeat #fff;
 }
+.banne{background-image:url('images/dna.jpg');background-repeat:no-repeat;text-align:center;background-position:center;width:100%;padding:17%; }
 </style>
 
 </head>
@@ -59,6 +60,7 @@
             <div class="navbar-header">
               <!-- Logo Starts -->
               <a class="navbar-brand" href="#home"><h2>ProSyn</h2></a>
+
               <!-- #Logo Ends -->
 
 
@@ -80,6 +82,7 @@
                  <li ><a href="#foods">Some terms</a></li>
                  <li ><a href="#partners">Members</a></li>
                  <li ><a href="#contact">Contact</a></li>
+
               </ul>
             </div>
             <!-- #Nav Ends -->
@@ -96,15 +99,25 @@
 
 <div id="home">
 <!-- Slider Starts -->
-<div class="banner">
-          <img src="images/dna.jpg" alt="banner" class="img-responsive">
+<div class="banne">
+
           <div class="caption">
             <div class="caption-wrapper">
               <div class="caption-info">              
               <img class="animated bounceInDown" src=images/rsz_icon.jpg></i>
               <h1 class="animated bounceInUp">Protein Synthesis</h1><br><br>
-              <p class="animated bounceInLeft"><a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feTNYR29xVC03bU0" class="btn btn-success">Download for Linux</a>
-                <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feUUtTWhqN0dZbWc" class="btn btn-success">Download for Windows</a></p>
+              
+                  <p class="animated bounceInLeft">
+                    <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feTNYR29xVC03bU0" class="btn btn-success">
+                      Download for Linux
+                    </a>
+                  </p>
+                  <p class="animated bounceInRight">
+                  <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feUUtTWhqN0dZbWc" class="btn btn-success">
+                    Download for Windows
+                  </a>
+                </p>
+              
              <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
               </div>
             </div>
@@ -299,9 +312,6 @@ transcript does not occur.
     </figure>     
     
 </div>
-<div class="clearfix grid"><h3><br>Transcription & Translation</h3>
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/-K8Y0ATkkAI" frameborder="0" allowfullscreen></iframe>
-</div><!-- works -->
 
 
 <div id="partners" class="container spacer ">

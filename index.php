@@ -42,7 +42,10 @@
   z-index: 9999;
   background: url('images/giphy.gif') center no-repeat #fff;
 }
-.banne{background-image:url('images/dna.jpg');background-repeat:no-repeat;text-align:center;background-position:center;width:100%;padding:17%; }
+.banne{background-image:url('images/dna.jpg');background-repeat:no-repeat;text-align:center;background-position:center;width:100%;padding:7%;color: white;}
+.caption-info{font-family:Lobster;}
+.capti{font-family:Lobster; font-size:30px;}
+#car{width:300px;height:400px; margin-left:20%;}
 </style>
 
 </head>
@@ -59,7 +62,7 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><h2>ProSyn</h2></a>
+              <a class="navbar-brand" href="#home"><h2>ProSynn</h2></a>
 
               <!-- #Logo Ends -->
 
@@ -79,6 +82,7 @@
               <ul class="nav navbar-nav navbar-right scroll">
                  <li class="active"><a href="#home">Home</a></li>
                  <li ><a href="#menu">Introduction</a></li>
+                 <li ><a href="#menu1">How to Play!</a></li>
                  <li ><a href="#foods">Some terms</a></li>
                  <li ><a href="#partners">Members</a></li>
                  <li ><a href="#contact">Contact</a></li>
@@ -106,20 +110,26 @@
               <div class="caption-info">              
               <img class="animated bounceInDown" src=images/rsz_icon.jpg></i>
               <h1 class="animated bounceInUp">Protein Synthesis</h1><br><br>
-              
+              </div>
                   <p class="animated bounceInLeft">
-                    <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feTNYR29xVC03bU0" class="btn btn-success">
-                      Download for Linux
-                    </a>
-                  </p>
-                  <p class="animated bounceInRight">
-                  <a target="_blank" href="https://drive.google.com/open?id=0B7MHZc98VB3feUUtTWhqN0dZbWc" class="btn btn-success">
-                    Download for Windows
+                                <div class="capti">Available On</div><br><br><br>
+                  <a target="_blank" href="https://drive.google.com/open?id=0By_mkWW_d9NlbEg5OGQyd3VZZnM">
+                    <img src="images/aphone.png">
+                  </a><br><br>
+                  <div class="capti">Coming Soon !</div><br><br><br>                
+                  <a href="#">
+                    <img src="images/win.png">
+                  </a>
+                
+                  <a href="#">
+                    <img src="images/linux.png">
+                  </a>
+                 <a  href="#">
+                    <img src="images/mac.png">
                   </a>
                 </p>
-              
              <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
-              </div>
+              
             </div>
           </div>
 </div>
@@ -139,6 +149,15 @@
 <h2 class="text-center wowload fadeInUp"> Protein Synthesis</h2>  
   <div class="row">
   <div class="col-sm-6 wowload fadeInLeft">
+    The game is based upon DNA translation in eukaryotes. You have got a mRNA chain and you have to summon the required codons by selecting its triplet nucleic acids.
+Remember the possible pairing 
+A-U
+G-C
+
+Race Against time-You have to select time duration and make the longest chain protein in that time.
+
+You have got 3 lives to complete any mode.Remember each wrong choice of nucleic acid costs you a life.Have fun.
+
     <h4>Introduction</h4>
     <p>You encounter so many  proteins in day-to-day life that they seem countless to number.<br>
         e.g.
@@ -258,6 +277,79 @@ transcript does not occur.
   
 </div>
 <!-- #Cirlce Ends -->
+
+
+
+
+<div id="menu1"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp"> How to Play !</h2>  
+  <div class="row">
+  <div class="col-sm-6 wowload fadeInLeft">
+    
+    <p>
+
+    The game is based upon DNA translation in eukaryotes. You have got a mRNA chain and you have to summon the required codons by selecting its triplet nucleic acids.
+Remember the possible pairing <br>
+A-U<br>
+G-C<br>
+Race Against time-You have to select time duration and make the longest chain protein in that time.<br>
+You have got 3 lives to complete any mode.Remember each wrong choice of nucleic acid costs you a life.<br>Have fun!<br>
+    </p>
+  </div>
+  <div class="col-sm-offset-1 col-sm-5" id=car>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval=3000>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/a.png" alt="...">
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/b.png" alt="...">
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/c.png" alt="...">
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+        <div class="item">
+      <img src="images/d.png" alt="...">
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+  </div>
+
+  </div>
+
+</div>
+
+
+
 
 
 <!-- works -->
@@ -416,7 +508,10 @@ transcript does not occur.
 <!-- Footer Starts -->
 <div class="footer text-center spacer">
 <p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i class="fa fa-instagram fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a href="#"><i class="fa fa-flickr fa-2x"></i></a> </p>
-Copyright 2016.All rights reserved.
+<br><br>Bibilography<br>
+en.wikipedia.org<br>icons8.com<br>thenextweb.com<br>differences.com<br>background-music Wallpaper Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
 </div>
 <!-- # Footer Ends -->
 <a href="#home" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>

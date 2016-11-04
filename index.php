@@ -149,15 +149,6 @@
 <h2 class="text-center wowload fadeInUp"> Protein Synthesis</h2>  
   <div class="row">
   <div class="col-sm-6 wowload fadeInLeft">
-    The game is based upon DNA translation in eukaryotes. You have got a mRNA chain and you have to summon the required codons by selecting its triplet nucleic acids.
-Remember the possible pairing 
-A-U
-G-C
-
-Race Against time-You have to select time duration and make the longest chain protein in that time.
-
-You have got 3 lives to complete any mode.Remember each wrong choice of nucleic acid costs you a life.Have fun.
-
     <h4>Introduction</h4>
     <p>You encounter so many  proteins in day-to-day life that they seem countless to number.<br>
         e.g.
